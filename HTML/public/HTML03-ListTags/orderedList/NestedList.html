@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #options{
+            display: flex;
+            margin-top: 20px;
+        }
+        #li-child{
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Web Technologies</h2>
+    <ol type="I">
+        <li>
+            HTML
+            <ol type="1">
+                <li>Void Elements
+                    <ol type="a">
+                        <li>Image</li>
+                        <li>Link</li>
+                    </ol>
+                </li>
+                <li>Normal Elements</li>
+            </ol>
+        </li>
+        <li>CSS
+            <ol type="1">
+                <li>ID Selector</li>
+                <li>Class Selector</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+    <pre>
+        FAQ: How to wrap items side-by-side ?
+            Ans: 2 Techniques
+            a) Flex
+            b) Inline
+
+            Syntax:-
+                ol {
+                display: flex;
+                }
+                li {
+                display:inline;
+                }
+    </pre>
+    <hr>
+    <h1>Using Flex</h1>
+    <ol type="I">
+        <li>
+            HTML is _________ language.
+            <ol type="a" id="options">
+                <li id="li-child">Programming</li>
+                <li id="li-child">Presentation</li>
+                <li id="li-child">Structrued</li>
+                <li id="li-child">Imperative</li>
+            </ol>
+        </li>
+    </ol>
+    
+</body>
+
+</html>
